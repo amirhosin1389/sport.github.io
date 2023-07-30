@@ -1,0 +1,43 @@
+
+tbody{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+::selection {
+    background-color: yellow;
+    color: red;
+}
+
+#my-table,
+#my-table2 {
+    width: 100%;
+    border: 1px solid #eeeeee;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#my-table th,
+#my-table2 th {
+    background-color: orange;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-size: 21px;
+}
+
+#my-table tr td,
+#my-table2 tr td {
+    padding: 7px;
+    border: 1px solid #4b4b4b;
+    font-size: 18px;
+}
+
+#my-table tr:nth-child(2n) {
+    background-color: gold;
+}
+
+#my-table2 {
+    color: #fff;
+}
+
